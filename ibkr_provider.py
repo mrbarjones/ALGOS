@@ -193,7 +193,7 @@ class IBKRDataProvider(EWrapper, EClient):
             duration,
             bar_size,
             what_to_show,
-            1,  # useRTH: 1=regular trading hours only, 0=all hours
+            0,  # useRTH: 1=regular trading hours only, 0=all hours (includes pre/post market)
             1,  # formatDate: 1=yyyyMMdd HH:mm:ss, 2=epoch
             False,  # keepUpToDate
             []  # chartOptions
